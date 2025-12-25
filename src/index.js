@@ -10,6 +10,7 @@ import artcRoutes from './routes/artc.js';
 import gapstudioRoutes from './routes/gapstudio.js';
 import artistsRoutes from './routes/artists.js';
 import marketplaceRoutes from './routes/marketplace.js';
+import museumRoutes from './routes/museum.js';
 
 // Route registrations - group by responsibility
 
@@ -29,6 +30,8 @@ app.use('/api/artists', artistsRoutes);
 // Portal & notifications
 app.use('/api/portal', portalRoutes);
 app.use('/api/notifications', notificationsRoutes);
+// Museum (fallback JSON store for local dev)
+app.use('/api/museum', museumRoutes);
 
 app.get('/api/health', (req, res) => res.json({ status: 'ok', db: 'memory-based' }));
 
