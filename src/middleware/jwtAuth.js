@@ -10,7 +10,7 @@ export function jwtAuth(req, res, next) {
   const token = auth.replace(/^Bearer\s+/, '').trim();
   // token prefix omitted for production logs
   try {
-    const payload = jwt.verify(token, JWT_SECRET);
+    const payload = jwt.verify(token, process.env.JWT_SECRET || JWT_SECRET);
     req.user = { id: payload.id, role: payload.role };
     return next();
   } catch (e) {
