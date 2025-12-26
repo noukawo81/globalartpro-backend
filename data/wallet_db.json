@@ -25,7 +25,7 @@
         "PI": 0,
         "IA": 0
       },
-      "createdAt": "2025-12-24T01:49:28.187Z"
+      "createdAt": "2025-12-26T00:26:10.561Z"
     },
     "user-test-2": {
       "userId": "user-test-2",
@@ -34,7 +34,7 @@
         "PI": 0,
         "IA": 0
       },
-      "createdAt": "2025-12-24T01:49:28.192Z"
+      "createdAt": "2025-12-26T00:26:01.075Z"
     },
     "artist-test-1": {
       "userId": "artist-test-1",
@@ -43,7 +43,7 @@
         "PI": 0,
         "IA": 0
       },
-      "createdAt": "2025-12-24T01:48:47.545Z"
+      "createdAt": "2025-12-26T00:26:10.568Z"
     }
   },
   "transactions": [
@@ -715,6 +715,206 @@
       "description": "Receive from user-test-1",
       "datetime": "2025-12-24T01:49:30.648Z",
       "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766706916967",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Bought prod-1",
+      "datetime": "2025-12-25T23:55:16.967Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766706916967-in",
+      "accountId": "artist-test-1",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Sale prod-1",
+      "datetime": "2025-12-25T23:55:16.967Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766706960594",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Send to user-test-2",
+      "datetime": "2025-12-25T23:56:00.594Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766706960594-in",
+      "accountId": "user-test-2",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Receive from user-test-1",
+      "datetime": "2025-12-25T23:56:00.594Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766707577666",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Send to user-test-2",
+      "datetime": "2025-12-26T00:06:17.666Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766707577666-in",
+      "accountId": "user-test-2",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Receive from user-test-1",
+      "datetime": "2025-12-26T00:06:17.666Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766707891188",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Bought prod-1",
+      "datetime": "2025-12-26T00:11:31.188Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766707891188-in",
+      "accountId": "artist-test-1",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Sale prod-1",
+      "datetime": "2025-12-26T00:11:31.188Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766707962189",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Send to user-test-2",
+      "datetime": "2025-12-26T00:12:42.189Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766707962189-in",
+      "accountId": "user-test-2",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Receive from user-test-1",
+      "datetime": "2025-12-26T00:12:42.189Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708064895",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Bought prod-1",
+      "datetime": "2025-12-26T00:14:24.895Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708064895-in",
+      "accountId": "artist-test-1",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Sale prod-1",
+      "datetime": "2025-12-26T00:14:24.895Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708089678",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Send to user-test-2",
+      "datetime": "2025-12-26T00:14:49.678Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708089678-in",
+      "accountId": "user-test-2",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Receive from user-test-1",
+      "datetime": "2025-12-26T00:14:49.678Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708357273",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Bought prod-1",
+      "datetime": "2025-12-26T00:19:17.273Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708357273-in",
+      "accountId": "artist-test-1",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Sale prod-1",
+      "datetime": "2025-12-26T00:19:17.273Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708761553",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Send to user-test-2",
+      "datetime": "2025-12-26T00:26:01.553Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708761553-in",
+      "accountId": "user-test-2",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Receive from user-test-1",
+      "datetime": "2025-12-26T00:26:01.553Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708773458",
+      "accountId": "user-test-1",
+      "type": "DEBIT",
+      "token": "ARTC",
+      "amount": -10,
+      "description": "Bought prod-1",
+      "datetime": "2025-12-26T00:26:13.458Z",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": "tx-1766708773458-in",
+      "accountId": "artist-test-1",
+      "type": "CREDIT",
+      "token": "ARTC",
+      "amount": 10,
+      "description": "Sale prod-1",
+      "datetime": "2025-12-26T00:26:13.458Z",
+      "status": "CONFIRMED"
     }
   ],
   "nfts": [],
@@ -976,6 +1176,227 @@
       "artistId": "artist-test-1",
       "postId": "post-1766541161131",
       "ts": "2025-12-24T01:52:41.232Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766706899803",
+      "title": "Œuvre Test",
+      "ts": "2025-12-25T23:54:59.961Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766706900723",
+      "title": "Test 2",
+      "ts": "2025-12-25T23:55:00.873Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766706901295",
+      "title": "Test 3",
+      "ts": "2025-12-25T23:55:01.316Z"
+    },
+    {
+      "type": "marketplace_exhibit",
+      "listingId": "listing-1766706901295",
+      "admin": "globalart-admin",
+      "ts": "2025-12-25T23:55:01.723Z"
+    },
+    {
+      "type": "portal_share",
+      "artistId": "artist-test-1",
+      "postId": "post-1766706905569",
+      "ts": "2025-12-25T23:55:05.696Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766707192528",
+      "listingId": "listing-1766707193133",
+      "title": "Price Test",
+      "ts": "2025-12-25T23:59:53.222Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766707547754",
+      "listingId": "listing-1766707548079",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:05:48.165Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766707573653",
+      "title": "Œuvre Test",
+      "ts": "2025-12-26T00:06:13.723Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766707574051",
+      "title": "Test 2",
+      "ts": "2025-12-26T00:06:14.096Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766707574357",
+      "title": "Test 3",
+      "ts": "2025-12-26T00:06:14.393Z"
+    },
+    {
+      "type": "marketplace_exhibit",
+      "listingId": "listing-1766707574357",
+      "admin": "globalart-admin",
+      "ts": "2025-12-26T00:06:14.665Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766707657876",
+      "listingId": "listing-1766707658783",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:07:38.881Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766707752624",
+      "listingId": "listing-1766707752941",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:09:12.992Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766707851419",
+      "listingId": "listing-1766707851798",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:10:51.854Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766707934212",
+      "listingId": "listing-1766707934859",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:12:14.938Z"
+    },
+    {
+      "type": "portal_share",
+      "artistId": "artist-test-1",
+      "postId": "post-1766707938652",
+      "ts": "2025-12-26T00:12:18.718Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766707958399",
+      "title": "Œuvre Test",
+      "ts": "2025-12-26T00:12:38.430Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766707958760",
+      "title": "Test 2",
+      "ts": "2025-12-26T00:12:38.806Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766707958991",
+      "title": "Test 3",
+      "ts": "2025-12-26T00:12:39.016Z"
+    },
+    {
+      "type": "marketplace_exhibit",
+      "listingId": "listing-1766707958991",
+      "admin": "globalart-admin",
+      "ts": "2025-12-26T00:12:39.236Z"
+    },
+    {
+      "type": "portal_share",
+      "artistId": "artist-test-1",
+      "postId": "post-1766708093125",
+      "ts": "2025-12-26T00:14:53.191Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766708326205",
+      "title": "Œuvre Test",
+      "ts": "2025-12-26T00:18:46.301Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766708326506",
+      "title": "Test 2",
+      "ts": "2025-12-26T00:18:46.541Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766708326841",
+      "title": "Test 3",
+      "ts": "2025-12-26T00:18:47.099Z"
+    },
+    {
+      "type": "marketplace_exhibit",
+      "listingId": "listing-1766708326841",
+      "admin": "globalart-admin",
+      "ts": "2025-12-26T00:18:48.019Z"
+    },
+    {
+      "type": "portal_share",
+      "artistId": "artist-test-1",
+      "postId": "post-1766708332259",
+      "ts": "2025-12-26T00:18:52.322Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766708368080",
+      "listingId": "listing-1766708368817",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:19:28.942Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "user-1766708795735",
+      "listingId": "listing-1766708796053",
+      "title": "Price Test",
+      "ts": "2025-12-26T00:26:36.116Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766708799456",
+      "title": "Œuvre Test",
+      "ts": "2025-12-26T00:26:39.495Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766708799655",
+      "title": "Test 2",
+      "ts": "2025-12-26T00:26:39.700Z"
+    },
+    {
+      "type": "marketplace_list_create",
+      "artistId": "artist-test-1",
+      "listingId": "listing-1766708799915",
+      "title": "Test 3",
+      "ts": "2025-12-26T00:26:39.951Z"
+    },
+    {
+      "type": "marketplace_exhibit",
+      "listingId": "listing-1766708799915",
+      "admin": "globalart-admin",
+      "ts": "2025-12-26T00:26:40.053Z"
+    },
+    {
+      "type": "portal_share",
+      "artistId": "artist-test-1",
+      "postId": "post-1766708812416",
+      "ts": "2025-12-26T00:26:52.490Z"
     }
   ],
   "notifications": [
@@ -1249,6 +1670,86 @@
       "title": "Paiement reçu",
       "message": "Vous avez reçu 10 ARTC de user-test-1",
       "ts": "2025-12-24T01:49:30.648Z",
+      "read": false
+    },
+    {
+      "id": "note-1766706960594",
+      "userId": "user-test-1",
+      "title": "Paiement envoyé",
+      "message": "Vous avez envoyé 10 ARTC à user-test-2",
+      "ts": "2025-12-25T23:56:00.594Z",
+      "read": false
+    },
+    {
+      "id": "note-1766706960594-2",
+      "userId": "user-test-2",
+      "title": "Paiement reçu",
+      "message": "Vous avez reçu 10 ARTC de user-test-1",
+      "ts": "2025-12-25T23:56:00.594Z",
+      "read": false
+    },
+    {
+      "id": "note-1766707577666",
+      "userId": "user-test-1",
+      "title": "Paiement envoyé",
+      "message": "Vous avez envoyé 10 ARTC à user-test-2",
+      "ts": "2025-12-26T00:06:17.666Z",
+      "read": false
+    },
+    {
+      "id": "note-1766707577666-2",
+      "userId": "user-test-2",
+      "title": "Paiement reçu",
+      "message": "Vous avez reçu 10 ARTC de user-test-1",
+      "ts": "2025-12-26T00:06:17.666Z",
+      "read": false
+    },
+    {
+      "id": "note-1766707962189",
+      "userId": "user-test-1",
+      "title": "Paiement envoyé",
+      "message": "Vous avez envoyé 10 ARTC à user-test-2",
+      "ts": "2025-12-26T00:12:42.189Z",
+      "read": false
+    },
+    {
+      "id": "note-1766707962189-2",
+      "userId": "user-test-2",
+      "title": "Paiement reçu",
+      "message": "Vous avez reçu 10 ARTC de user-test-1",
+      "ts": "2025-12-26T00:12:42.189Z",
+      "read": false
+    },
+    {
+      "id": "note-1766708089678",
+      "userId": "user-test-1",
+      "title": "Paiement envoyé",
+      "message": "Vous avez envoyé 10 ARTC à user-test-2",
+      "ts": "2025-12-26T00:14:49.678Z",
+      "read": false
+    },
+    {
+      "id": "note-1766708089678-2",
+      "userId": "user-test-2",
+      "title": "Paiement reçu",
+      "message": "Vous avez reçu 10 ARTC de user-test-1",
+      "ts": "2025-12-26T00:14:49.678Z",
+      "read": false
+    },
+    {
+      "id": "note-1766708761553",
+      "userId": "user-test-1",
+      "title": "Paiement envoyé",
+      "message": "Vous avez envoyé 10 ARTC à user-test-2",
+      "ts": "2025-12-26T00:26:01.553Z",
+      "read": false
+    },
+    {
+      "id": "note-1766708761553-2",
+      "userId": "user-test-2",
+      "title": "Paiement reçu",
+      "message": "Vous avez reçu 10 ARTC de user-test-1",
+      "ts": "2025-12-26T00:26:01.553Z",
       "read": false
     }
   ]

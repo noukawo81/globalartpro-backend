@@ -1,0 +1,82 @@
+[
+  {
+    "id": "user-1766698983801",
+    "name": "Mitterand Tekeu",
+    "email": "globalartpropi@gmail.com",
+    "password_hash": "$2b$12$Vf8Q0h/lBs6k/7orJpDMru958HMFBr5Pbfa5DCdo1oDzi4VZCmibW",
+    "role": "artist",
+    "created_at": "2025-12-25T21:43:03.801Z"
+  },
+  {
+    "id": "user-1766706888110",
+    "name": "Price Tester",
+    "email": "price1766706886632@test",
+    "password_hash": "$2b$12$.eMdhtK80KDjoq4e3OarmuJLJHoO8FrtWnoEBSDAS7wLTTj3e5RcS",
+    "role": "artist",
+    "created_at": "2025-12-25T23:54:48.110Z"
+  },
+  {
+    "id": "user-1766707192528",
+    "name": "Price Tester",
+    "email": "price1766707188992@test",
+    "password_hash": "$2b$12$SD7OYh.CttUzulPGLmZkQuDa1gAqoTZXrKtc.W40uETYChwVf2Tce",
+    "role": "artist",
+    "created_at": "2025-12-25T23:59:52.529Z"
+  },
+  {
+    "id": "user-1766707547754",
+    "name": "Price Tester",
+    "email": "price1766707545294@test",
+    "password_hash": "$2b$12$W7UATK3NUEQEblrTOZtFLO5LS6Zk3DwWpQotuIyFhIPf0tlkSncri",
+    "role": "artist",
+    "created_at": "2025-12-26T00:05:47.754Z"
+  },
+  {
+    "id": "user-1766707657876",
+    "name": "Price Tester",
+    "email": "price1766707656268@test",
+    "password_hash": "$2b$12$yY0DGp0UjAKhlgKnJ5Z.BOeYJ6THacd6zkN5DHv2FejVSCWNfmz9.",
+    "role": "artist",
+    "created_at": "2025-12-26T00:07:37.876Z"
+  },
+  {
+    "id": "user-1766707752624",
+    "name": "Price Tester",
+    "email": "price1766707751360@test",
+    "password_hash": "$2b$12$3ExkE1X/.5PxqkD4HyTzyefNqw.M9V4m1PKNjZsWLmA9gjpifEMFu",
+    "role": "artist",
+    "created_at": "2025-12-26T00:09:12.624Z"
+  },
+  {
+    "id": "user-1766707851419",
+    "name": "Price Tester",
+    "email": "price1766707850117@test",
+    "password_hash": "$2b$12$rIW2AXKgey0hWFJTCeXRDuuW3V7oFSd03ub9HqtbpSncQU6vpQzMe",
+    "role": "artist",
+    "created_at": "2025-12-26T00:10:51.419Z"
+  },
+  {
+    "id": "user-1766707934212",
+    "name": "Price Tester",
+    "email": "price1766707909571@test",
+    "password_hash": "$2b$12$3Z0AT3mkfYwWetf7tEv.3Ohhxu9ziRPB1qGBD0iaeixRmE3o5q6zW",
+    "role": "artist",
+    "created_at": "2025-12-26T00:12:14.212Z"
+  },
+  {
+    "id": "user-1766708368080",
+    "name": "Price Tester",
+    "email": "price1766708366161@test",
+    "password_hash": "$2b$12$8KACmnUOTqS8w0oBHCGoQ.JLe/poqYIDTLF1nZGssFjfZvyv/FaGu",
+    "role": "artist",
+    "created_at": "2025-12-26T00:19:28.080Z"
+  },
+  {
+    "id": "user-1766708795735",
+    "name": "Price Tester",
+    "email": "price1766708794162@test",
+    "password_hash": "$2b$12$SxBYWQg0ovKV9Tpyp1Q/V.2XP5te.fNlfTNmheahDaZJJYdEY7RdS",
+    "role": "artist",
+    "created_at": "2025-12-26T00:26:35.735Z"
+  }
+]

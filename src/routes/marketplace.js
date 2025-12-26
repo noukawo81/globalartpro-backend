@@ -16,10 +16,11 @@ function readMarketplace() {
     return { listings: [] };
   }
 }
+import { safeWriteJSON } from '../lib/fileUtils.js';
+
 function writeMarketplace(db) {
   try {
-    fs.mkdirSync(path.dirname(DB_FILE), { recursive: true });
-    fs.writeFileSync(DB_FILE, JSON.stringify(db, null, 2), 'utf8');
+    safeWriteJSON(DB_FILE, db);
   } catch (e) {
     console.error('marketplace write error', e);
   }

@@ -10,10 +10,11 @@ export function readUsers() {
     return [];
   }
 }
+import { safeWriteJSON } from './fileUtils.js';
+
 export function writeUsers(users) {
   try {
-    fs.mkdirSync(path.dirname(DB_FILE), { recursive: true });
-    fs.writeFileSync(DB_FILE, JSON.stringify(users, null, 2), 'utf8');
+    safeWriteJSON(DB_FILE, users);
   } catch (e) {
     console.error('users_db write error', e);
   }
