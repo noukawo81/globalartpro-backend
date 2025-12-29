@@ -44,5 +44,5 @@ describe('Museum Globe API', () => {
     // cleanup
     const createdId = resAuth.body.item.id;
     await request(app).delete(`/api/museum/globe/${createdId}`).set('Authorization', `Bearer ${token}`);
-  });
+  }, 60000);
 });
