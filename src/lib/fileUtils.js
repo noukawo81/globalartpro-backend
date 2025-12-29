@@ -19,9 +19,21 @@ export function safeWriteJSON(filePath, data) {
     try {
       // Write tmp file
       fs.writeFileSync(tmp, str, 'utf8');
-      // Replace the target file atomically
-      fs.renameSync(tmp, filePath);
-      return true;
+      // Replace the target file atomically (robust on Windows)
+      try {
+        fs.renameSync(tmp, filePath);
+        return true;
+      } catch (renameErr) {
+        // Fallback: copy file over and remove tmp
+        try {
+          fs.copyFileSync(tmp, filePath);
+          fs.unlinkSync(tmp);
+          return true;
+        } catch (copyErr) {
+          // rethrow original rename error to be handled by outer catch
+          throw renameErr;
+        }
+      }
     } catch (e) {
       console.warn(`safeWriteJSON: attempt ${attempt} failed for ${filePath}`, e && e.message);
       try {
