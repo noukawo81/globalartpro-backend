@@ -11,6 +11,7 @@ import gapstudioRoutes from './routes/gapstudio.js';
 import artistsRoutes from './routes/artists.js';
 import marketplaceRoutes from './routes/marketplace.js';
 import museumRoutes from './routes/museum.js';
+import studioRoutes from './routes/studio.js';
 
 // Route registrations - group by responsibility
 
@@ -32,6 +33,13 @@ app.use('/api/portal', portalRoutes);
 app.use('/api/notifications', notificationsRoutes);
 // Museum (fallback JSON store for local dev)
 app.use('/api/museum', museumRoutes);
+
+// Museum globe (concentric globe collection)
+import museumGlobeRoutes from './routes/museum_globe.js';
+app.use('/api/museum/globe', museumGlobeRoutes);
+
+// GAP Studio routes (image import, generate-nft, gallery)
+app.use('/api/studio', studioRoutes);
 
 app.get('/api/health', (req, res) => res.json({ status: 'ok', db: 'memory-based' }));
 
