@@ -24,5 +24,7 @@ jobs:
         working-directory: ./
 
       - name: Run CSP header test only
+        env:
+          NODE_OPTIONS: '--experimental-vm-modules'
         run: npx jest test/integration/csp-header.test.js --runInBand --silent
         working-directory: ./
