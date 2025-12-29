@@ -19,7 +19,7 @@ beforeAll(() => {
   if (!db.artists.find(a => String(a.id) === 'artist-test-1')) {
     db.artists.push({ id: 'artist-test-1', name: 'Test Artist' });
     fs.mkdirSync(path.dirname(dbFile), { recursive: true });
-    fs.writeFileSync(dbFile, JSON.stringify(db, null, 2), 'utf8');
+  try { safeWriteJSON(dbFile, db); } catch (e) { try { fs.writeFileSync(dbFile, JSON.stringify(db, null, 2), 'utf8'); } catch (err) { console.warn('artist test seed write failed', err && err.message); } }
   }
 });
 

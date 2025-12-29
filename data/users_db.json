@@ -582,5 +582,173 @@
     "password_hash": "$2b$12$D2cPl33cUgv/IGhasXI6cuhIMyNh6RQ8j.1.bU5UOYQcQuZdixju.",
     "role": "artist",
     "created_at": "2025-12-29T21:02:50.371Z"
+  },
+  {
+    "id": "user-1767042970655",
+    "name": "Buyer Test",
+    "email": "buyer1767042966384@test",
+    "password_hash": "$2b$12$7bSZQzOQWaWaswPUjdWUouFVqsC9MXEzToQCR5XYt2dZW2TblryNK",
+    "role": "visitor",
+    "created_at": "2025-12-29T21:16:10.655Z"
+  },
+  {
+    "id": "user-1767042976539",
+    "name": "Seller Test",
+    "email": "seller1767042972905@test",
+    "password_hash": "$2b$12$r6PYHG1ZRoZ27n2R/qLOGuMLk8PBSznFO/m8ySgnvoaqk2MrhgIHG",
+    "role": "artist",
+    "created_at": "2025-12-29T21:16:16.539Z"
+  },
+  {
+    "id": "user-1767043043594",
+    "name": "Pass Artist",
+    "email": "pass1767043039978@test",
+    "password_hash": "$2b$12$hcxtVUsOwRJBUkcVwZvng.PLEBAOtlN/YZBQSehfPKfnA6.sjGVMa",
+    "role": "artist",
+    "created_at": "2025-12-29T21:17:23.594Z"
+  },
+  {
+    "id": "user-1767043537102",
+    "name": "Buyer Test",
+    "email": "buyer1767043534659@test",
+    "password_hash": "$2b$12$AAIfAgv/RzCgYF5KAlYBheOQHzvP1tgTZqvwmeMAQWdXecD/yaPny",
+    "role": "visitor",
+    "created_at": "2025-12-29T21:25:37.102Z"
+  },
+  {
+    "id": "user-1767043540703",
+    "name": "Seller Test",
+    "email": "seller1767043537703@test",
+    "password_hash": "$2b$12$VZLyXoAnIxqzkJ3BpCYF8eam25Gr4TwwUdMAS0/1Y4n/icax8NeGi",
+    "role": "artist",
+    "created_at": "2025-12-29T21:25:40.703Z"
+  },
+  {
+    "id": "user-1767043556449",
+    "name": "Pass Artist",
+    "email": "pass1767043553899@test",
+    "password_hash": "$2b$12$BGz08dnKZO9qOQoXX9HI2OLJqbXgf1nzXrWYXm809diGRpKUMYUV2",
+    "role": "artist",
+    "created_at": "2025-12-29T21:25:56.449Z"
+  },
+  {
+    "id": "user-1767043878643",
+    "name": "Price Tester",
+    "email": "price1767043875430@test",
+    "password_hash": "$2b$12$ui6YaiAVvKdonnAi9q2ITeuzdP/CXx95IyVgGVQ/S2l634Pr6T2bS",
+    "role": "artist",
+    "created_at": "2025-12-29T21:31:18.643Z"
+  },
+  {
+    "id": "user-1767044786426",
+    "name": "Pass Artist",
+    "email": "pass1767044785312@test",
+    "password_hash": "$2b$12$Vtu.1h12FAR7FELC8S0.SOdvAoM94moaFVBUBdG2fYKgXOrsctaB6",
+    "role": "artist",
+    "created_at": "2025-12-29T21:46:26.426Z"
+  },
+  {
+    "id": "user-1767044988860",
+    "name": "Buyer Test",
+    "email": "buyer1767044985208@test",
+    "password_hash": "$2b$12$ch3hTaE577HoGLWQix1AAuWCUDPisj.v99lLXHyDH8RynHAvLdXKO",
+    "role": "visitor",
+    "created_at": "2025-12-29T21:49:48.860Z"
+  },
+  {
+    "id": "user-1767045007839",
+    "name": "Seller Test",
+    "email": "seller1767044993530@test",
+    "password_hash": "$2b$12$BwQwHI7PqUtEmjqU1sctJuxnwl68U/oeP9dXPJsfQImJCufpTg5SK",
+    "role": "artist",
+    "created_at": "2025-12-29T21:50:07.843Z"
+  },
+  {
+    "id": "user-1767045125321",
+    "name": "Price Tester",
+    "email": "price1767045120704@test",
+    "password_hash": "$2b$12$J2byFp3cE1x61WOpXR9V7uSufhY5nOApLgy6PThiCafFFkT5VtaA.",
+    "role": "artist",
+    "created_at": "2025-12-29T21:52:05.321Z"
+  },
+  {
+    "id": "user-1767045773100",
+    "name": "Buyer Test",
+    "email": "buyer1767045771803@test",
+    "password_hash": "$2b$12$n6m95jgwtnSXNxhfIx.Q5uzgeg9YWPbiMfraOEsOems9Qn7xtzZoi",
+    "role": "visitor",
+    "created_at": "2025-12-29T22:02:53.100Z"
+  },
+  {
+    "id": "user-1767045778650",
+    "name": "Seller Test",
+    "email": "seller1767045773641@test",
+    "password_hash": "$2b$12$f2yLaoepFAxAjbewpKSsguIqT19ETa2VflBDRFwvSoXXsJSFEhQQW",
+    "role": "artist",
+    "created_at": "2025-12-29T22:02:58.651Z"
+  },
+  {
+    "id": "user-1767045883494",
+    "name": "Pass Artist",
+    "email": "pass1767045879825@test",
+    "password_hash": "$2b$12$/sbpCSWkjTcj4EGmmMOnVeb9BdlJSE13tNAt8.62rU00VVg8f7fFS",
+    "role": "artist",
+    "created_at": "2025-12-29T22:04:43.494Z"
+  },
+  {
+    "id": "user-1767046098999",
+    "name": "Price Tester",
+    "email": "price1767046096793@test",
+    "password_hash": "$2b$12$GEp8gbqI1Cl0kIJ2HTqoMOYwYfyLRMjSB/wlbK7vDNUXxNCwxuUmC",
+    "role": "artist",
+    "created_at": "2025-12-29T22:08:18.999Z"
+  },
+  {
+    "id": "user-1767046558483",
+    "name": "Buyer Test",
+    "email": "buyer1767046557365@test",
+    "password_hash": "$2b$12$TYJn8RrvBWcbmbwLR1B/A.GKjeG6FKXGgAw/W8dgMv6ReTT7pEDSG",
+    "role": "visitor",
+    "created_at": "2025-12-29T22:15:58.483Z"
+  },
+  {
+    "id": "user-1767046563231",
+    "name": "Seller Test",
+    "email": "seller1767046558848@test",
+    "password_hash": "$2b$12$51bZ/e3LiuX9CiLriAGJuOt1OJxCraU90YO5IGLSePaw906yJjBMi",
+    "role": "artist",
+    "created_at": "2025-12-29T22:16:03.231Z"
+  },
+  {
+    "id": "user-1767047269253",
+    "name": "Price Tester",
+    "email": "price1767047263496@test",
+    "password_hash": "$2b$12$uD2Ti9qo.vyQhR2O15TKEO3Y3BzrxmxsyX1LoPUlupJZh1FJTygCy",
+    "role": "artist",
+    "created_at": "2025-12-29T22:27:49.253Z"
+  },
+  {
+    "id": "user-1767047346823",
+    "name": "Pass Artist",
+    "email": "pass1767047335845@test",
+    "password_hash": "$2b$12$a9tJ9T65XWM0Zvcjp6xBXOcQDgm2OcCDRved/n31qb9td4UhNiJrq",
+    "role": "artist",
+    "created_at": "2025-12-29T22:29:06.823Z"
+  },
+  {
+    "id": "user-1767047504039",
+    "name": "Buyer Test",
+    "email": "buyer1767047501237@test",
+    "password_hash": "$2b$12$EUCB5odPFB23g9e2l8bG5.Y26N8rOi1eCAJPyOQvCDoUyH5e7RWP2",
+    "role": "visitor",
+    "created_at": "2025-12-29T22:31:44.039Z"
+  },
+  {
+    "id": "user-1767047506764",
+    "name": "Seller Test",
+    "email": "seller1767047504904@test",
+    "password_hash": "$2b$12$JzNukjGSM/DpujVYJfeCruNwpDrKdTU6rXxannCUcgNky42DLRO6K",
+    "role": "artist",
+    "created_at": "2025-12-29T22:31:46.764Z"
   }
 ]
