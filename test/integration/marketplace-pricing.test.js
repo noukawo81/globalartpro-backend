@@ -8,10 +8,10 @@ describe('Marketplace pricing and display', () => {
     const token = (r.body && (r.body.token || r.body?.user?.token)) || r.body?.token;
     const artistId = r.body.user?.id || r.body?.user?.userId || 'artist-test-1';
     const create = await request(app).post('/api/marketplace/list').set('Authorization', `Bearer ${token}`).send({ artistId, mediaId: 'm-price-1', title: 'Price Test', price: 12.5, baseCurrency: 'USD' });
-    console.log('create status', create.status, 'body', create.body);
+    // suppressed verbose logs in CI to avoid slow console output
     expect(create.status).toBe(201);
     const list = await request(app).get('/api/marketplace/list?display=true');
-    console.log('list status', list.status, 'body', list.body);
+    // suppressed verbose logs in CI to avoid slow console output
     expect(list.status).toBe(200);
     const items = list.body.listings;
     expect(Array.isArray(items)).toBe(true);

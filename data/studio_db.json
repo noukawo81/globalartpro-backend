@@ -1,0 +1,466 @@
+{
+  "nfts": {
+    "nft-1766749821862-990": {
+      "id": "nft-1766749821862-990",
+      "image": "data\\studio\\uploads\\1766749820616-359.png",
+      "author": "test-user-1",
+      "date": "2025-12-26T11:50:21.859Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b"
+      }
+    },
+    "nft-1766754121679-9653": {
+      "id": "nft-1766754121679-9653",
+      "image": "data\\studio\\uploads\\1766754117084-8362.jpeg",
+      "author": "guest",
+      "date": "2025-12-26T13:02:01.622Z",
+      "status": "gallery",
+      "title": "GAP Studio NFT",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "206b5dffaa6f7d138ded9fad9eeea1560f8659b03e525a1d4e6706d4dc5a4edb"
+      }
+    },
+    "nft-1766761507140-8560": {
+      "id": "nft-1766761507140-8560",
+      "image": "data\\studio\\uploads\\1766761496113-2962.png",
+      "author": "test-user-1",
+      "date": "2025-12-26T15:05:07.138Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b"
+      }
+    },
+    "nft-1766775861826-3733": {
+      "id": "nft-1766775861826-3733",
+      "image": "data\\studio\\uploads\\1766775843423-9839.png",
+      "author": "test-user-1",
+      "date": "2025-12-26T19:04:21.818Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b"
+      }
+    },
+    "nft-1766776555025-5320": {
+      "id": "nft-1766776555025-5320",
+      "image": "data\\studio\\uploads\\1766776550125-9757.png",
+      "author": "test-user-1",
+      "date": "2025-12-26T19:15:55.024Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b"
+      }
+    },
+    "nft-1766779351554-3582": {
+      "id": "nft-1766779351554-3582",
+      "image": "data\\studio\\uploads\\1766779347069-3501.png",
+      "author": "test-user-1",
+      "date": "2025-12-26T20:02:31.553Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b"
+      }
+    },
+    "nft-1766780315432-886": {
+      "id": "nft-1766780315432-886",
+      "image": "data\\studio\\uploads\\1766780312747-1560.png",
+      "author": "test-user-1",
+      "date": "2025-12-26T20:18:35.427Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b"
+      }
+    },
+    "nft-1766784027219-1225": {
+      "id": "nft-1766784027219-1225",
+      "image": "data\\studio\\uploads\\1766784026593-6667.jpeg",
+      "author": "guest",
+      "date": "2025-12-26T21:20:27.214Z",
+      "status": "gallery",
+      "title": "GAP Studio NFT",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "206b5dffaa6f7d138ded9fad9eeea1560f8659b03e525a1d4e6706d4dc5a4edb"
+      }
+    },
+    "nft-1766967356301-2668": {
+      "id": "nft-1766967356301-2668",
+      "image": "data\\studio\\uploads\\1766967352325-4794.png",
+      "author": "user-1766967350010",
+      "date": "2025-12-29T00:15:56.298Z",
+      "status": "gallery",
+      "title": "Gen NFT 0",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967359738-9559": {
+      "id": "nft-1766967359738-9559",
+      "image": "data\\studio\\uploads\\1766967352325-4794.png",
+      "author": "user-1766967350010",
+      "date": "2025-12-29T00:15:59.737Z",
+      "status": "gallery",
+      "title": "Gen NFT 1",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967362666-7225": {
+      "id": "nft-1766967362666-7225",
+      "image": "data\\studio\\uploads\\1766967352325-4794.png",
+      "author": "user-1766967350010",
+      "date": "2025-12-29T00:16:02.664Z",
+      "status": "gallery",
+      "title": "Gen NFT 2",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967365067-9592": {
+      "id": "nft-1766967365067-9592",
+      "image": "data\\studio\\uploads\\1766967352325-4794.png",
+      "author": "user-1766967350010",
+      "date": "2025-12-29T00:16:05.066Z",
+      "status": "gallery",
+      "title": "Gen NFT 4",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967413847-9366": {
+      "id": "nft-1766967413847-9366",
+      "image": "data\\studio\\uploads\\1766967411042-9689.png",
+      "author": "test-user-1",
+      "date": "2025-12-29T00:16:53.845Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967835677-3889": {
+      "id": "nft-1766967835677-3889",
+      "image": "data\\studio\\uploads\\1766967835490-881.png",
+      "author": "user-1766967834392",
+      "date": "2025-12-29T00:23:55.676Z",
+      "status": "gallery",
+      "title": "Gen NFT 0",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967835784-5693": {
+      "id": "nft-1766967835784-5693",
+      "image": "data\\studio\\uploads\\1766967835490-881.png",
+      "author": "user-1766967834392",
+      "date": "2025-12-29T00:23:55.783Z",
+      "status": "gallery",
+      "title": "Gen NFT 1",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967836122-673": {
+      "id": "nft-1766967836122-673",
+      "image": "data\\studio\\uploads\\1766967835490-881.png",
+      "author": "user-1766967834392",
+      "date": "2025-12-29T00:23:56.121Z",
+      "status": "gallery",
+      "title": "Gen NFT 2",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766967856054-9122": {
+      "id": "nft-1766967856054-9122",
+      "image": "data\\studio\\uploads\\1766967855766-1713.png",
+      "author": "test-user-1",
+      "date": "2025-12-29T00:24:16.053Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766990782052-5219": {
+      "id": "nft-1766990782052-5219",
+      "image": "data\\studio\\uploads\\1766990781775-2621.png",
+      "author": "user-1766990781544",
+      "date": "2025-12-29T06:46:22.051Z",
+      "status": "gallery",
+      "title": "Gen NFT 0",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766990782268-3510": {
+      "id": "nft-1766990782268-3510",
+      "image": "data\\studio\\uploads\\1766990781775-2621.png",
+      "author": "user-1766990781544",
+      "date": "2025-12-29T06:46:22.267Z",
+      "status": "gallery",
+      "title": "Gen NFT 1",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766990782493-5579": {
+      "id": "nft-1766990782493-5579",
+      "image": "data\\studio\\uploads\\1766990781775-2621.png",
+      "author": "user-1766990781544",
+      "date": "2025-12-29T06:46:22.492Z",
+      "status": "gallery",
+      "title": "Gen NFT 2",
+      "description": "",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    },
+    "nft-1766990788326-5043": {
+      "id": "nft-1766990788326-5043",
+      "image": "data\\studio\\uploads\\1766990788039-3657.png",
+      "author": "test-user-1",
+      "date": "2025-12-29T06:46:28.325Z",
+      "status": "gallery",
+      "title": "Test NFT",
+      "description": "desc",
+      "metadata": {
+        "generator": "GAP_STUDIO",
+        "generator_version": "1.0",
+        "image_hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+        "cost_debited": 2
+      }
+    }
+  },
+  "images": {
+    "img-1766749820719-2928": {
+      "id": "img-1766749820719-2928",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766749820616-359.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-26T11:50:20.675Z"
+    },
+    "img-1766754118918-5848": {
+      "id": "img-1766754118918-5848",
+      "owner": "guest",
+      "path": "data\\studio\\uploads\\1766754117084-8362.jpeg",
+      "hash": "206b5dffaa6f7d138ded9fad9eeea1560f8659b03e525a1d4e6706d4dc5a4edb",
+      "contentType": "image/jpeg",
+      "createdAt": "2025-12-26T13:01:58.796Z"
+    },
+    "img-1766761498492-8512": {
+      "id": "img-1766761498492-8512",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766761496113-2962.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-26T15:04:58.485Z"
+    },
+    "img-1766775848644-6187": {
+      "id": "img-1766775848644-6187",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766775843423-9839.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-26T19:04:08.354Z"
+    },
+    "img-1766776551293-9534": {
+      "id": "img-1766776551293-9534",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766776550125-9757.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-26T19:15:51.287Z"
+    },
+    "img-1766779348186-3284": {
+      "id": "img-1766779348186-3284",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766779347069-3501.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-26T20:02:28.169Z"
+    },
+    "img-1766780313572-5732": {
+      "id": "img-1766780313572-5732",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766780312747-1560.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-26T20:18:33.557Z"
+    },
+    "img-1766784026866-3301": {
+      "id": "img-1766784026866-3301",
+      "owner": "guest",
+      "path": "data\\studio\\uploads\\1766784026593-6667.jpeg",
+      "hash": "206b5dffaa6f7d138ded9fad9eeea1560f8659b03e525a1d4e6706d4dc5a4edb",
+      "contentType": "image/jpeg",
+      "createdAt": "2025-12-26T21:20:26.771Z"
+    },
+    "img-1766965212198-9013": {
+      "id": "img-1766965212198-9013",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766965212072-6633.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-28T23:40:12.176Z"
+    },
+    "img-1766967352461-4034": {
+      "id": "img-1766967352461-4034",
+      "owner": "user-1766967350010",
+      "path": "data\\studio\\uploads\\1766967352325-4794.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-29T00:15:52.457Z"
+    },
+    "img-1766967411064-3621": {
+      "id": "img-1766967411064-3621",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766967411042-9689.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-29T00:16:51.060Z"
+    },
+    "img-1766967835517-4702": {
+      "id": "img-1766967835517-4702",
+      "owner": "user-1766967834392",
+      "path": "data\\studio\\uploads\\1766967835490-881.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-29T00:23:55.512Z"
+    },
+    "img-1766967855786-7323": {
+      "id": "img-1766967855786-7323",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766967855766-1713.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-29T00:24:15.784Z"
+    },
+    "img-1766990781820-5468": {
+      "id": "img-1766990781820-5468",
+      "owner": "user-1766990781544",
+      "path": "data\\studio\\uploads\\1766990781775-2621.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-29T06:46:21.817Z"
+    },
+    "img-1766990788046-6359": {
+      "id": "img-1766990788046-6359",
+      "owner": "test-user-1",
+      "path": "data\\studio\\uploads\\1766990788039-3657.png",
+      "hash": "d014edc031656dd8a5cb7740ed900d658ba3108ff6fcb977fc3ff4f758c10f0b",
+      "contentType": "image/png",
+      "createdAt": "2025-12-29T06:46:28.045Z"
+    }
+  },
+  "userGalleries": {
+    "test-user-1": [
+      "nft-1766749821862-990",
+      "nft-1766761507140-8560",
+      "nft-1766775861826-3733",
+      "nft-1766776555025-5320",
+      "nft-1766779351554-3582",
+      "nft-1766780315432-886",
+      "nft-1766967413847-9366",
+      "nft-1766967856054-9122",
+      "nft-1766990788326-5043"
+    ],
+    "guest": [
+      "nft-1766754121679-9653",
+      "nft-1766784027219-1225"
+    ],
+    "user-1766967350010": [
+      "nft-1766967356301-2668",
+      "nft-1766967359738-9559",
+      "nft-1766967362666-7225",
+      "nft-1766967365067-9592"
+    ],
+    "user-1766967834392": [
+      "nft-1766967835677-3889",
+      "nft-1766967835784-5693",
+      "nft-1766967836122-673"
+    ],
+    "user-1766990781544": [
+      "nft-1766990782052-5219",
+      "nft-1766990782268-3510",
+      "nft-1766990782493-5579"
+    ]
+  }
+}
