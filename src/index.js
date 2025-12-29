@@ -31,12 +31,11 @@ app.use('/api/artists', artistsRoutes);
 // Portal & notifications
 app.use('/api/portal', portalRoutes);
 app.use('/api/notifications', notificationsRoutes);
-// Museum (fallback JSON store for local dev)
-app.use('/api/museum', museumRoutes);
-
-// Museum globe (concentric globe collection)
+// Museum globe (concentric globe collection) - register BEFORE generic /api/museum to avoid route shadowing
 import museumGlobeRoutes from './routes/museum_globe.js';
 app.use('/api/museum/globe', museumGlobeRoutes);
+// Museum (fallback JSON store for local dev)
+app.use('/api/museum', museumRoutes);
 
 // GAP Studio routes (image import, generate-nft, gallery)
 app.use('/api/studio', studioRoutes);
@@ -63,6 +62,26 @@ app.get('/api/debug/routes', (req, res) => {
     res.status(500).json({ error: e.message });
   }
 });
+
+// Test-time route dump for debugging
+if (process.env.NODE_ENV === 'test') {
+  try {
+    const flat = [];
+    if (app._router && app._router.stack) {
+      app._router.stack.forEach((layer) => {
+        if (layer.route && layer.route.path) flat.push(layer.route.path);
+        else if (layer.name === 'router' && layer.handle && layer.handle.stack) {
+          layer.handle.stack.forEach((l) => { if (l.route && l.route.path) flat.push(l.route.path); });
+        }
+      });
+      console.log('TEST REGISTERED ROUTES:', flat);
+    } else {
+      console.log('TEST REGISTERED ROUTES: none (app._router missing)');
+    }
+  } catch (e) {
+    console.warn('test route dump failed', e.message);
+  }
+}
 
 const PORT = process.env.PORT || 3000;
 // Export app for tests; only start server if not running under tests
