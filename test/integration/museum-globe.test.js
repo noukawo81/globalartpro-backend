@@ -3,8 +3,6 @@ import app from '../../src/index.js';
 import jwt from 'jsonwebtoken';
 import { JWT_SECRET } from '../../src/middleware/jwtAuth.js';
 
-jest.setTimeout(60000);
-
 function makeToken(id, role = 'curator') {
   return jwt.sign({ id, role }, JWT_SECRET);
 }
