@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "id": "m-1767041925438",
+      "from": "alice",
+      "to": "bob",
+      "text": "Hello Bob",
+      "createdAt": "2025-12-29T20:58:45.438Z",
+      "read": false
+    },
+    {
+      "id": "m-1767041925733",
+      "from": "bob",
+      "to": "alice",
+      "text": "Hi Alice",
+      "createdAt": "2025-12-29T20:58:45.733Z",
+      "read": false
+    }
+  ]
+}

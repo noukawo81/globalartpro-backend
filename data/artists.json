@@ -220,6 +220,13 @@
           "type": "image",
           "url": "file://C:\\Users\\hp\\globalartpro\\backend\\data\\uploads\\artist-test-1\\1767001858675.txt",
           "createdAt": "2025-12-29T09:50:58.688Z"
+        },
+        {
+          "id": "m-1767042200500",
+          "title": "test.txt",
+          "type": "image",
+          "url": "file://C:\\Users\\hp\\globalartpro\\backend\\data\\uploads\\artist-test-1\\1767042200323.txt",
+          "createdAt": "2025-12-29T21:03:20.500Z"
         }
       ]
     },
@@ -624,12 +631,30 @@
       "name": "Price Tester",
       "email": "price1767001991045@test",
       "createdAt": "2025-12-29T09:53:13.775Z"
+    },
+    {
+      "id": "user-1767041975672",
+      "name": "Price Tester",
+      "email": "price1767041971688@test",
+      "createdAt": "2025-12-29T20:59:37.300Z"
+    },
+    {
+      "id": "user-1767042039293",
+      "name": "Seller Test",
+      "email": "seller1767042035648@test",
+      "createdAt": "2025-12-29T21:00:39.508Z"
+    },
+    {
+      "id": "user-1767042170371",
+      "name": "Pass Artist",
+      "email": "pass1767042168197@test",
+      "createdAt": "2025-12-29T21:02:50.892Z"
     }
   ],
   "invites": {
     "artist-test-1": {
-      "token": "invite-artist-test-1-1767001858262",
-      "createdAt": "2025-12-29T09:50:58.263Z"
+      "token": "invite-artist-test-1-1767042197827",
+      "createdAt": "2025-12-29T21:03:17.911Z"
     }
   }
 }

@@ -3,51 +3,51 @@
     "user-test-1": {
       "userId": "user-test-1",
       "balance": 10,
-      "createdAt": "2025-12-29T09:52:39.705Z"
+      "createdAt": "2025-12-29T21:01:13.250Z"
     },
     "user-test-2": {
       "userId": "user-test-2",
       "balance": 1,
-      "createdAt": "2025-12-29T09:52:40.230Z"
+      "createdAt": "2025-12-29T21:01:14.731Z"
     }
   },
   "transactions": [
     {
-      "id": "tx-1767001960276-out",
+      "id": "tx-1767042075390-out",
       "accountId": "user-test-1",
       "type": "transfer_out",
       "amount": -1,
       "meta": {
         "to": "user-test-2"
       },
-      "createdAt": "2025-12-29T09:52:40.276Z"
+      "createdAt": "2025-12-29T21:01:15.390Z"
     },
     {
-      "id": "tx-1767001960276-in",
+      "id": "tx-1767042075390-in",
       "accountId": "user-test-2",
       "type": "transfer_in",
       "amount": 1,
       "meta": {
         "from": "user-test-1"
       },
-      "createdAt": "2025-12-29T09:52:40.276Z"
+      "createdAt": "2025-12-29T21:01:15.390Z"
     }
   ],
   "miningEvents": [
     {
-      "id": "mine-1767001963580",
+      "id": "mine-1767042080645",
       "userId": "user-test-1",
       "reward": 1,
       "status": "claimed",
-      "createdAt": "2025-12-29T09:52:43.580Z"
+      "createdAt": "2025-12-29T21:01:20.645Z"
     }
   ],
   "lastMine": {},
   "miningSessions": {
     "user-test-1": {
       "userId": "user-test-1",
-      "start": 1767001961264,
-      "end": 1767001962264,
+      "start": 1767042078260,
+      "end": 1767042079260,
       "status": "active",
       "claimed": true
     }

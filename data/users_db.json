@@ -550,5 +550,37 @@
     "password_hash": "$2b$12$YhK4khoWKHgQ5odMCmBmLOXTWu.xCCN4iCmfCk86PNSKVbpZy8oeu",
     "role": "artist",
     "created_at": "2025-12-29T09:53:13.531Z"
+  },
+  {
+    "id": "user-1767041975672",
+    "name": "Price Tester",
+    "email": "price1767041971688@test",
+    "password_hash": "$2b$12$18XpOCiw/kobmtcvjacAqOW.MmsGVX.vGD3RuRVvz6ASjzGm0pAUO",
+    "role": "artist",
+    "created_at": "2025-12-29T20:59:35.672Z"
+  },
+  {
+    "id": "user-1767042033846",
+    "name": "Buyer Test",
+    "email": "buyer1767042028981@test",
+    "password_hash": "$2b$12$ZwYlbeNX8ebwCLjgFBgDPO3h0Jxhv2RvHYAOpM/.TxFbE1fDIEsvW",
+    "role": "visitor",
+    "created_at": "2025-12-29T21:00:33.846Z"
+  },
+  {
+    "id": "user-1767042039293",
+    "name": "Seller Test",
+    "email": "seller1767042035648@test",
+    "password_hash": "$2b$12$GevsbGCsRzr.ysjRKllX2ujuSa1n9/EkJSn1ej6cp/K2vAfjf8xl2",
+    "role": "artist",
+    "created_at": "2025-12-29T21:00:39.293Z"
+  },
+  {
+    "id": "user-1767042170371",
+    "name": "Pass Artist",
+    "email": "pass1767042168197@test",
+    "password_hash": "$2b$12$D2cPl33cUgv/IGhasXI6cuhIMyNh6RQ8j.1.bU5UOYQcQuZdixju.",
+    "role": "artist",
+    "created_at": "2025-12-29T21:02:50.371Z"
   }
 ]
