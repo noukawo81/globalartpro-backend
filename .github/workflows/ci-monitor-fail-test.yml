@@ -1,0 +1,19 @@
+name: CI Monitor - test failure (intentional)
+
+on:
+  push:
+    branches: [ ci-monitor-test ]
+  workflow_dispatch: {}
+
+jobs:
+  fail_job:
+    name: Intentional failure job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run a failing command to test CI monitor
+        run: |
+          echo "This job is intentionally failing to test the CI monitor workflow";
+          exit 1

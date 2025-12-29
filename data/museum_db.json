@@ -1,0 +1,476 @@
+{
+  "items": [
+    {
+      "id": "m-item-1",
+      "title": "Rituel du matin",
+      "artistId": "artist-test-1",
+      "artistName": "Amina Sow",
+      "description": "Une étude lumineuse sur les rituels quotidiens, combinant médias traditionnels et numériques.",
+      "imageUrl": "https://picsum.photos/seed/m1/800/600",
+      "thumbnailUrl": "https://picsum.photos/seed/m1/400/300",
+      "year": 2023,
+      "medium": "Peinture numérique & collage",
+      "tags": [
+        "culture",
+        "rituel",
+        "identité"
+      ],
+      "status": "exhibit",
+      "createdAt": "2025-12-23T00:00:00.000Z"
+    },
+    {
+      "id": "m-item-2",
+      "title": "Fragments d'archive",
+      "artistId": "artist-test-2",
+      "artistName": "Kwame Diop",
+      "description": "Assemblage photographique retraçant des fragments de mémoire collective.",
+      "imageUrl": "https://picsum.photos/seed/m2/800/600",
+      "thumbnailUrl": "https://picsum.photos/seed/m2/400/300",
+      "year": 2021,
+      "medium": "Photographie assemblée",
+      "tags": [
+        "mémoire",
+        "archive"
+      ],
+      "status": "candidate",
+      "createdAt": "2025-12-10T00:00:00.000Z"
+    },
+    {
+      "id": "m-item-3",
+      "title": "Lignes convergentes",
+      "artistId": "artist-test-3",
+      "artistName": "Sophie M.",
+      "description": "Série abstraite inspirée par les villes en transformation.",
+      "imageUrl": "https://picsum.photos/seed/m3/800/600",
+      "thumbnailUrl": "https://picsum.photos/seed/m3/400/300",
+      "year": 2024,
+      "medium": "Technique mixte",
+      "tags": [
+        "urbain",
+        "abstraction"
+      ],
+      "status": "exhibit",
+      "createdAt": "2025-11-01T00:00:00.000Z"
+    },
+    {
+      "id": "m-pub-0",
+      "title": "Public 0",
+      "artistId": "artist-0",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-1",
+      "title": "Public 1",
+      "artistId": "artist-1",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-2",
+      "title": "Public 2",
+      "artistId": "artist-2",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-3",
+      "title": "Public 3",
+      "artistId": "artist-0",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-4",
+      "title": "Public 4",
+      "artistId": "artist-1",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-5",
+      "title": "Public 5",
+      "artistId": "artist-2",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-6",
+      "title": "Public 6",
+      "artistId": "artist-0",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-7",
+      "title": "Public 7",
+      "artistId": "artist-1",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-8",
+      "title": "Public 8",
+      "artistId": "artist-2",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-9",
+      "title": "Public 9",
+      "artistId": "artist-0",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-10",
+      "title": "Public 10",
+      "artistId": "artist-1",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-pub-11",
+      "title": "Public 11",
+      "artistId": "artist-2",
+      "status": "public",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-draft-0",
+      "title": "Draft 0",
+      "artistId": "artist-0",
+      "status": "draft",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-draft-1",
+      "title": "Draft 1",
+      "artistId": "artist-1",
+      "status": "draft",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-draft-2",
+      "title": "Draft 2",
+      "artistId": "artist-0",
+      "status": "draft",
+      "createdAt": "2025-12-24T00:57:12.370Z"
+    },
+    {
+      "id": "m-draft-3",
+      "title": "Draft 3",
+      "artistId": "artist-1",
+      "status": "draft",
+      "createdAt": "2025-12-24T00:57:12.371Z"
+    },
+    {
+      "id": "m-cat-1",
+      "title": "Cat Spec",
+      "artistId": "artist-x",
+      "status": "public",
+      "category": "photographie",
+      "tags": [
+        "special",
+        "archive"
+      ],
+      "createdAt": "2025-12-24T01:16:27.674Z"
+    },
+    {
+      "id": "m-tag-1",
+      "title": "Tag Spec",
+      "artistId": "artist-x",
+      "status": "public",
+      "category": "mixed",
+      "tags": [
+        "rituel",
+        "identity"
+      ],
+      "createdAt": "2025-12-24T01:16:27.674Z"
+    }
+  ],
+  "likes": [],
+  "comments": [
+    {
+      "id": "c-1766531519694",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-23T23:11:59.694Z"
+    },
+    {
+      "id": "c-1766533969654",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-23T23:52:49.654Z"
+    },
+    {
+      "id": "c-1766535547575",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T00:19:07.575Z"
+    },
+    {
+      "id": "c-1766537819540",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T00:56:59.540Z"
+    },
+    {
+      "id": "c-1766538979989",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T01:16:19.989Z"
+    },
+    {
+      "id": "c-1766539497099",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T01:24:57.099Z"
+    },
+    {
+      "id": "c-1766539839497",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T01:30:39.497Z"
+    },
+    {
+      "id": "c-1766540385068",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T01:39:45.068Z"
+    },
+    {
+      "id": "c-1766540993536",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-24T01:49:53.536Z"
+    },
+    {
+      "id": "c-1766706955523",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-25T23:55:55.523Z"
+    },
+    {
+      "id": "c-1766707601870",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T00:06:41.870Z"
+    },
+    {
+      "id": "c-1766707952954",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T00:12:32.955Z"
+    },
+    {
+      "id": "c-1766708083259",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T00:14:43.259Z"
+    },
+    {
+      "id": "c-1766708323084",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T00:18:43.084Z"
+    },
+    {
+      "id": "c-1766708807857",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T00:26:47.857Z"
+    },
+    {
+      "id": "c-1766750025411",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T11:53:45.411Z"
+    },
+    {
+      "id": "c-1766761666088",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T15:07:46.088Z"
+    },
+    {
+      "id": "c-1766779555357",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T20:05:55.357Z"
+    },
+    {
+      "id": "c-1766780252870",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-26T20:17:32.870Z"
+    },
+    {
+      "id": "c-1766965244299",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-28T23:40:44.299Z"
+    },
+    {
+      "id": "c-1766967286920",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T00:14:46.920Z"
+    },
+    {
+      "id": "c-1766967789353",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T00:23:09.353Z"
+    },
+    {
+      "id": "c-1766990784587",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T06:46:24.587Z"
+    },
+    {
+      "id": "c-1766999566972",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T09:12:46.972Z"
+    },
+    {
+      "id": "c-1767000164391",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T09:22:44.391Z"
+    },
+    {
+      "id": "c-1767000882553",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T09:34:42.553Z"
+    },
+    {
+      "id": "c-1767001107316",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T09:38:27.316Z"
+    },
+    {
+      "id": "c-1767001574702",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T09:46:14.702Z"
+    },
+    {
+      "id": "c-1767001976478",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T09:52:56.478Z"
+    },
+    {
+      "id": "c-1767042100171",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T21:01:40.171Z"
+    },
+    {
+      "id": "c-1767043031857",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T21:17:11.857Z"
+    },
+    {
+      "id": "c-1767043828448",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T21:30:28.448Z"
+    },
+    {
+      "id": "c-1767045073554",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T21:51:13.554Z"
+    },
+    {
+      "id": "c-1767046087901",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T22:08:07.902Z"
+    },
+    {
+      "id": "c-1767047432311",
+      "userId": "user-test-2",
+      "itemId": "m-item-1",
+      "content": "Nice work!",
+      "parentId": null,
+      "createdAt": "2025-12-29T22:30:32.311Z"
+    }
+  ],
+  "audit": []
+}

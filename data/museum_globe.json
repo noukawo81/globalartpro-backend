@@ -1,0 +1,245 @@
+[
+  {
+    "id": "g-001",
+    "title": "Masque de l'ancêtre",
+    "origin": "Région X",
+    "circle": "Racines",
+    "year": "XIXe siècle",
+    "description": "Masque cérémoniel employé lors des initiations.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/masque-a.jpg",
+        "caption": "vue frontale"
+      }
+    ],
+    "provenance": "Don de la communauté A",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": true
+    },
+    "tags": [
+      "masque",
+      "initiation"
+    ],
+    "displayOrder": 1
+  },
+  {
+    "id": "g-002",
+    "title": "Proverbe 'Le vent raconte'",
+    "origin": "Région Y",
+    "circle": "Paroles",
+    "year": "oral",
+    "description": "Proverbe ancien recueilli lors d'une collecte orale.",
+    "media": [
+      {
+        "type": "text",
+        "url": "/data/sample/proverbe-b.txt",
+        "caption": "Proverbe (FR)"
+      }
+    ],
+    "provenance": "Collecte orale par Dr. B",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "parole",
+      "proverbe"
+    ],
+    "displayOrder": 2
+  },
+  {
+    "id": "g-003",
+    "title": "Tissu cérémoniel",
+    "origin": "Région Z",
+    "circle": "Corps",
+    "year": "XXe siècle",
+    "description": "Tissu porté lors des danses rituelles.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/tissu-c.jpg"
+      }
+    ],
+    "provenance": "Musée local",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "textile",
+      "danse"
+    ],
+    "displayOrder": 3
+  },
+  {
+    "id": "g-004",
+    "title": "Jarres d'Argile",
+    "origin": "Région W",
+    "circle": "Terre",
+    "year": "XVIIIe siècle",
+    "description": "Jarres utilisées pour le stockage des semences.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/jarre.jpg"
+      }
+    ],
+    "provenance": "Collection publique",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "terre",
+      "céramique"
+    ],
+    "displayOrder": 4
+  },
+  {
+    "id": "g-005",
+    "title": "Carte des étoiles locale",
+    "origin": "Région V",
+    "circle": "Ciel",
+    "year": "traditionnel",
+    "description": "Carte stellaire employée pour la navigation cérémonielle.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/astro.jpg"
+      }
+    ],
+    "provenance": "Communauté C",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "ciel",
+      "mythe"
+    ],
+    "displayOrder": 5
+  },
+  {
+    "id": "g-006",
+    "title": "Masque de passage",
+    "origin": "Région U",
+    "circle": "Passage",
+    "year": "XXe siècle",
+    "description": "Objet utilisé lors des rites de passage.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/passage.jpg"
+      }
+    ],
+    "provenance": "Don privé",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": true
+    },
+    "tags": [
+      "passage",
+      "rite"
+    ],
+    "displayOrder": 6
+  },
+  {
+    "id": "g-007",
+    "title": "Reinterprétation digitale",
+    "origin": "Artiste contemporain A",
+    "circle": "Futur",
+    "year": "2024",
+    "description": "Œuvre contemporaine inspirée par des motifs traditionnels.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/futur.jpg"
+      }
+    ],
+    "provenance": "Artiste",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "contemporain",
+      "reinterprétation"
+    ],
+    "displayOrder": 7
+  },
+  {
+    "id": "g-008",
+    "title": "Tambour ancestral",
+    "origin": "Région T",
+    "circle": "Corps",
+    "year": "XIXe siècle",
+    "description": "Tambour cérémonial avec motifs gravés.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/tambour.jpg"
+      }
+    ],
+    "provenance": "Collection communautaire",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": true
+    },
+    "tags": [
+      "musique",
+      "tambour"
+    ],
+    "displayOrder": 8
+  },
+  {
+    "id": "g-009",
+    "title": "Semences rituelles",
+    "origin": "Région S",
+    "circle": "Terre",
+    "year": "traditionnel",
+    "description": "Ensemble de semences conservées pour rites agricoles.",
+    "media": [
+      {
+        "type": "image",
+        "url": "/data/sample/semences.jpg"
+      }
+    ],
+    "provenance": "Groupe agricole local",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "agriculture",
+      "semence"
+    ],
+    "displayOrder": 9
+  },
+  {
+    "id": "g-010",
+    "title": "Chanson de la nuit",
+    "origin": "Région R",
+    "circle": "Paroles",
+    "year": "oral",
+    "description": "Enregistrement d'une chanson traditionnelle.",
+    "media": [
+      {
+        "type": "audio",
+        "url": "/data/sample/chanson.mp3",
+        "caption": "chant traditionnel"
+      }
+    ],
+    "provenance": "Collecte sonore",
+    "rights": {
+      "use": "non-commercial",
+      "sensitive": false
+    },
+    "tags": [
+      "musique",
+      "oral"
+    ],
+    "displayOrder": 10
+  }
+]
