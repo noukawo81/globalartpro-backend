@@ -1,0 +1,28 @@
+name: CSP Header Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  csp-header:
+    name: Check CSP headers (dev expectations)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: ./
+
+      - name: Run CSP header test only
+        run: npx jest test/integration/csp-header.test.js --runInBand --silent
+        working-directory: ./
