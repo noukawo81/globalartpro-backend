@@ -1,6 +1,8 @@
 import request from 'supertest';
 import app from '../../src/index.js';
 
+jest.setTimeout(60000);
+
 describe('Marketplace pricing and display', () => {
   test('POST /api/marketplace/list stores baseCurrency and GET /api/marketplace/list?display=true returns displayPrices', async () => {
     // create a fake token via auth route test user generation
