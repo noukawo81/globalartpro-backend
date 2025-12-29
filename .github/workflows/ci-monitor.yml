@@ -1,0 +1,32 @@
+name: CI Monitor - notify on failure
+
+on:
+  workflow_run:
+    workflows: [ 'CI — Backend tests', 'Backend tests', 'CSP Header Check', 'CI Monitor - test failure (intentional)' ]
+    types: [completed]
+
+jobs:
+  notify_on_failure:
+    name: Notify on failure
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    steps:
+      - name: Notify PRs or create issue about failed run
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const run = github.event.workflow_run;
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const body = `⚠️ **CI run failed**: **${run.name}**\n- Conclusion: **${run.conclusion}**\n- Branch: **${run.head_branch}**\n- Commit: ${run.head_sha}\n- [Voir le run](${run.html_url})`;
+
+            const prs = run.pull_requests || [];
+            if (prs.length > 0) {
+              for (const pr of prs) {
+                await github.rest.issues.createComment({ owner, repo, issue_number: pr.number, body });
+              }
+              console.log(`Commented on ${prs.length} PR(s)`);
+            } else {
+              await github.rest.issues.create({ owner, repo, title: `CI failure: ${run.name} on ${run.head_branch}`, body: body + "\n\n(Automated alert created because no PR was associated with the run.)" });
+              console.log('Created an issue for failed run');
+            }
