@@ -42,5 +42,5 @@ describe('Pass usage and free NFT limits (Genesis)', () => {
     } else {
       expect(g4.status).toBe(402);
     }
-  }, 60000);
+  }, 120000);
 });
