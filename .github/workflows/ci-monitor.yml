@@ -2,7 +2,6 @@ name: CI Monitor - notify on failure
 
 on:
   workflow_run:
-    workflows: [ 'CI — Backend', 'Backend tests', 'CSP Header Check', 'CI Monitor - test failure (intentional)' ]
     types: [completed]
 
 jobs:
